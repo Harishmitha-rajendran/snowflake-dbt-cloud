@@ -36,8 +36,7 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  snowflake_dbt_cloud:
-
+  my_new_project:
       +materialized: table
       +database: JMAN
 
