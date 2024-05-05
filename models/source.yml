@@ -2,9 +2,8 @@ version: 2
 sources:
   - name: tpch
     description: source tpch data
-    database: snowflake_sample_data
-    schema: tpch_sf1
+    database: JMAN
+    schema: RAW
     tables:
-      - name: orders      
-      - name: lineitem
+      - name: my_first_dbt_model
 
